@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" type="text/css" href="Style/accueil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Raleway:wght@400;500&family=Thasadith&display=swap" rel="stylesheet">
+<meta charset="UTF-8"/>
+<title>Accueil</title>
+</head>
+<body>
+    
+    <div id="nav">
+        <div class="logo"><a href="https://elearning.univ-eiffel.fr/?redirect=0"><img src="Ressource/Logo.png" alt="Logo de l'université"></a></div>
+        <div class="catégorie"><a href="accueil.html" class="button">Accueil</a></div>
+        <div class="catégorie"><a href="compte.html" class="button">Mon compte</a></div>
+        <div id="barre">
+            <input id="searchbar"  type="text"
+        name="search" placeholder="Recherchez...">
+        <img src="Ressource/loupe.png" id="Loupe"></div>
+    </div>
+
+    <h1 id="slogan">
+        Réservez du matériel de <br>la salle VR en ligne !
+        <img src="Ressource/trait.png">
+    </h1>
+    
+    <section class="carousel" aria-label="Gallery">
+        <ol class="carousel__viewport">
+            <li id="carousel__slide1"
+                tabindex="0"
+                class="carousel__slide">
+            <img src="Ressource/ordi.png">
+            <div class="carousel__snapper">
+                <a href="#carousel__slide3"
+                class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide2"
+                class="carousel__next">Go to next slide</a>
+            </div>
+            </li>
+            <li id="carousel__slide2"
+                tabindex="0"
+                class="carousel__slide">
+                <img src="Ressource/cam1.jpg">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide1"
+                class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide3"
+                class="carousel__next">Go to next slide</a>
+            </li>
+            <li id="carousel__slide3"
+                tabindex="0"
+                class="carousel__slide">
+                <img src="Ressource/micro.jpg">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide2"
+                class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide1"
+                class="carousel__next">Go to first slide</a>
+            </li>
+        </ol>
+    
+        <aside class="carousel__navigation">
+            <ol class="carousel__navigation-list">
+            <li class="carousel__navigation-item">
+                <a href="#carousel__slide1"
+                class="carousel__navigation-button">Go to slide 1</a>
+            </li>
+            <li class="carousel__navigation-item">
+                <a href="#carousel__slide2"
+                class="carousel__navigation-button">Go to slide 2</a>
+            </li>
+            <li class="carousel__navigation-item">
+                <a href="#carousel__slide3"
+                class="carousel__navigation-button">Go to slide 3</a>
+            </li>
+            </ol>
+        </aside>
+        </section>     
+    
+        <div id="ordi">
+            <img src="Ressource/ordi2.png" alt="ordi-radius">
+            <div class="txt">
+                <h2>PC Gaming Dell</h2>
+                <ul>
+                    <li>Disque dur : 1To SSD M2 NVME</li>
+                    <li>RAM : 64 Go DDR4</li>
+                    <li>Carte Graphique : Nvidia Quadro RTX 4000 8Go</li>
+                    <li>Processeur : Intel Xeon Silver 4210</li>
+                </ul>
+                <button>RÉSERVER<span></span><span></span><span></span><span></span></button>
+            </div>
+        </div>
+
+        <img class="separation" src="Ressource/separation.png" alt="separation">
+
+        <div id="casque">
+            <div class="txt">
+                    <h2>Les casques Oculus Quest 2</h2>
+                    Casque de réalité virtuelle tout-en-un, utilisable avec ou sans fil.
+                    
+                    <ul>
+                        <li>Stockage:              256 Go</li>
+                        <li>RAM:                     6 Go</li>
+                        <li>Processeur:           Qualcomm Snapdragon XR2</li>
+                        <li>écran LCD :           Résolution de 1832 x 1920 pixels par oeil</li>
+                        <li>Haut-parleurs:       intégrés pour une immersion à 360°</li>
+                        <li>Angle de vision:    120° (horizontal)</li>
+                    </ul>
+
+                    Chaque casque est accompagné de:
+                    <ul>
+                        <li>2 manettes Touch</li>
+                        <li>Câble de chargement</li>
+                        <li>Adaptateur secteur</li>
+                        <li>Espacement pour lunettes</li>
+                        <li>Câble Oculus Link (pour le lier au PC, pratique pour le développement)</li>
+                    </ul>
+                <button>RÉSERVER<span></span><span></span><span></span><span></span></button>
+            </div>
+            <img src="Ressource/casque.png" alt="casque-radius">
+        </div>
+
+        <img class="separation" src="Ressource/separation.png" alt="separation">
+
+        <div id="cam">
+            <img src="Ressource/cam1.jpg" alt="cam1">
+            <div class="txt">
+                <h2>Camera 360° RICOH Theta SC2 Video 4K avec Ricoh Coque Rigide</h2>
+                <ul>
+                    <li>Type de capteur : CMOS</li>
+                    <li>Résolution : 14,4 Mégapixels</li>
+                    <li>Stockage : 14 Go</li>
+                    <li>Format d'enregistrement : MP4</li>
+                    <li>Qualité d'enregistrement: Ultra HD (4K)</li>
+                    <li>WiFi : Oui</li>
+                    <li>Bluetooth : Oui</li>
+                    <li>Transfert sur smartphone : Oui</li>
+                    <li>Contrôle à distance via smartphone : Oui</li>
+                    <li>Application dédiée gratuite : Theta / Theta +</li>
+                </ul>
+                <button>RÉSERVER<span></span><span></span><span></span><span></span></button>
+            </div>
+            <img src="Ressource/cam2.jpg" alt="cam2">
+        </div>
+
+        <img class="separation" src="Ressource/separation.png" alt="separation">
+
+        <div id="webcam">
+            <img src="Ressource/webcam.png" alt="webcam">
+            <div class="txt">
+                <h2>Webcam LOGITECH BRIO 4K avec deux microphones omnidirectionnels</h2>
+                <ul>
+                    <li>Interface avec l'ordinateur: USB 3.0</li>
+                    <li>Sans-fil: Non</li>
+                    <li>Type de capteur: CMOS</li>
+                    <li>Résolution vidéo: 3840 x 2160 pixels</li>
+                    <li>Microphone intégré: Oui</li>
+                </ul>
+                Cette webcam est pratique pour le développement en réalité augmentée, avec Unity 3D et Vuforia.
+                <button>RÉSERVER<span></span><span></span><span></span><span></span></button>
+            </div>
+        </div>
+
+        <img class="separation" src="Ressource/separation.png" alt="separation">*
+        
+        <div id="trepied">
+            <div class="txt">
+                <h2>TRÉPIED BENRO SLIM ALUMINIUM + support smartphone et tablette</h2>
+                Idéal pour la fixation de la caméra 360° ou d'un smartphone/tablette.
+                <ul>
+                    <li>Charge maximale : 4 kg</li>
+                    <li>Corps de trépied en magnésium avec 3 positions de réglage </li>
+                    <li>Hauteur max (24°) avec colonne dépliée : 57.6 cm</li>
+                    <li>Hauteur max (24°) avec colonne repliée : 48.4 cm</li>
+                    <li>Hauteur min : 15.7 cm</li>
+                    <li>Hauteur max : 57.6 cm</li>
+                    <li>Taille replié : 20.1 cm</li>
+                    <li>Système de verrouillage : bague à vis</li>
+                    <li>Tête rotule amovible </li>
+                    <li>Plateau rapide en aluminium anodisé </li>
+                    <li>Diamètre colonne centrale : 20 mm</li>
+                    <li>Niveau à bulle </li>
+                    <li>Avec housse de transport</li>
+                    <li>Poids : 2.6 kg</li>
+                </ul>
+                <button>RÉSERVER<span></span><span></span><span></span><span></span></button>
+            </div>
+            <img src="Ressource/trepied.png" alt="trepied">
+        </div>
+
+        <img class="separation" src="Ressource/separation.png" alt="separation">*
+
+        <div id="micro">
+            <img src="Ressource/micro.png" alt="micro">
+            <div class="txt">
+                <h2>Microphone de gaming HYPERX QUADCAST à quatre diagrammes polaires</h2>
+                Pour enregistrer des sons lors du développement de jeux vidéos.
+                <ul>
+                    <li>Sélection entre quatre diagrammes polaires</li>
+                    <li>Pied amortisseur contre les vibrations</li>
+                    <li>Capteur de fonction mute par pression et témoin LED</li>
+                    <li>Molette de réglage du contrôle de gain pratique</li>
+                    <li>Filtre anti-pop interne</li>
+                    <li>Prise casque intégrée</li>
+                    <li>Compatibilité multi-dispositif et chat</li>
+                    <li>Contient un adaptateur de pied</li>
+                </ul>
+                <button>RÉSERVER<span></span><span></span><span></span><span></span></button>
+            </div>
+        </div>
+
+        <img class="separation" src="Ressource/separation.png" alt="separation">*
+
+        <div id="casque-audio">
+            <div class="txt">
+                <h2>Casque de gaming STEELSERIES ARCTIS 5 </h2>
+                <ul>
+                    <li>Casque au son DTS Headphone : X v2.0 Surround avec rétroéclairage RGB personnalisable (16.8 millions de couleurs)</li>
+                    <li>Microphone bidirectionnel rétractable avec suppression du bruit</li>
+                    <li>Connecteur : USB ou jack 3.5 mm 4 pôles</li>
+                    <li>Contrôle audio via télécommande filaire</li>
+                    <li>Bandeau de suspension s'adaptant à toutes les formes de tête</li>
+                    <li>Logiciel SteelSeries Engine 3</li>
+                </ul>
+                <button>RÉSERVER<span></span><span></span><span></span><span></span></button>
+            </div>
+            <img src="Ressource/casque-audio.png" alt="casque-audio">
+        </div>
+
+        <img class="separation" src="Ressource/separation.png" alt="separation">*
+
+        <div id="video">
+            <img src="Ressource/video.png" alt="video">
+            <div class="txt">
+                <h2>Vidéoprojecteur laser LG HF85LSR - Focale ultra-courte</h2>
+                <ul>
+                    <li>Vidéoprojecteur DLP Full HD</li>
+                    <li>Luminosité : 1500 Lumens</li>
+                    <li>Focale ultra-courte : image de 90" avec recul de 8 cm / 120" avec recul de 20 cm</li>
+                    <li>Correction manuelle de la distorsion trapézoïdale (H/V)</li>
+                    <li>Prise en charge d'un son Dolby Audio et DTS-HD</li>
+                    <li>Smart Share : Miracast, Contents Sharing</li>
+                    <li>Bluetooth audio</li>
+                    <li>webOS 4.0</li>
+                    <li>Lecteur multimédia intégré via port USB</li>
+                    <li>Connectiques : HDMI x2, USB, S/PDIF Optique, Fast Ethernet</li>
+                </ul>
+                <button>RÉSERVER<span></span><span></span><span></span><span></span></button>
+            </div>
+        </div>
+
+    <div id="footer">
+    <div id="logo2"><a href="https://elearning.univ-eiffel.fr/?redirect=0"><img class="logo" src="Ressource/logo.png" alt="Logo de l'université"></a></div>
+    <div class="colone">
+        <h3>Qui sommes-nous ?</h3>
+        <a href="https://www.univ-gustave-eiffel.fr/" class="button">Université Gustave Eiffel<br><br></a>
+        <a href="https://cipen.univ-gustave-eiffel.fr/" class="button">Centre d'Innovation Pédagogique et<br>Numérique (CIPEN)</a>
+    </div>
+    <div class="colone">
+        <h3>Support</h3>
+        <a href="" class="button">FAQs<br><br></a>
+        <a href="" class="button">Privacy</a>
+    </div>
+    <div class="colone">
+        <h3>Restons en contact</h3>
+        <a href="" class="button">Vous pouvez nous contacter <br>au 01 60 95 72 54<br>du lundi au vendredi de 9h à 17h par courriel<br><br></a>
+        
+        <a href="https://cipen.univ-gustave-eiffel.fr/" class="button">cipen@univ-eiffel.fr</a>
+    </div>
+    <div class="colone">
+        <h3>Suivez-nous</h3>
+        <div id="réseaux">
+            <a href="https://www.instagram.com/?hl=fr"><img class="res" src="Ressource/insta.png"></a>
+            <a href="https://twitter.com/home?lang=fr"><img class="res" src="Ressource/twitter.png"></a>
+            <a href="https://www.youtube.com/"><img class="res" src="Ressource/youtube.png"></a>
+            <a href="https://www.linkedin.com/feed/"><img class="res" src="Ressource/link.png"></a>
+            <a href="https://fr-fr.facebook.com/"><img class="res" src="Ressource/facebook.png"></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
