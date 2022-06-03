@@ -1,0 +1,286 @@
+html{
+	height: 100%;
+}
+body{
+	font-family: IBM Plex Sans;
+	height:100%;
+	margin:0;
+	padding: 0;
+	overflow: auto;
+	background-image: url('Ressources/wallp.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+img{
+	height: 50px;	
+}
+
+#div{
+	margin-left:125px;
+	margin-right:125px;
+	padding-top:42px;
+}
+#nav{
+	display:flex;
+	justify-content: space-between;
+	height: 150px;
+	align-items: center;
+    background-color: #181647;
+	box-shadow:0px 3px 3px black;
+	padding-left:25px;
+	padding-right:25px;
+	
+}
+.catégorie{
+	position: absolute;
+    color: white;
+	padding-top: 105px;
+	margin-left: 650px;
+    font: bold 20px "IBM Plex Sans" ;
+}
+.catégorie2{
+	position: absolute;
+    color: white;
+	padding-top: 105px;
+	margin-left: 1100px;
+    font: bold 20px "IBM Plex Sans" ;
+}
+#barre{
+	display: flex;
+}
+.searchbar{
+	display: inline-block;
+	height: 45px;
+	min-width: 200px;
+	margin-bottom: 30px;
+	margin-right: 10px;	
+	transition: all 0.5s ease-in-out;
+}
+.nouv{
+	display: inline-block;
+	height: 45px;
+	min-width: 200px;
+	margin-bottom: 30px;
+	margin-right: -50px;
+	visibility: hidden;
+    transition: all 0.5s ease-in-out;
+	opacity: 0%;
+}
+#loupe{
+	display: inline-block;
+	border-left: white solid 1px;
+	padding-left: 5px;
+}
+input{
+
+	outline: none;
+}
+a{ 
+ text-decoration:none; 
+ color:white;
+} 
+.button{
+	width: 100px;
+	height: 100px;
+}
+.button:hover{
+	color: rgb(85, 207, 255);
+}
+#footer{
+	margin-top: 100px;
+	display:flex;
+	justify-content: space-between;
+	height: 150px;
+	background-color: #181647;
+}
+
+
+
+
+
+#slider{
+	background: #ffffff;
+	width: 100%;
+	height: 670px;
+}
+#flechegauche{
+	background: url(../Ressources/flechegauche.png) no-repeat left;
+    margin-top: 275px;
+    margin-left: 10px;
+    float: left;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+#flechedroite{
+	background: url(../Ressources/flechedroite.png) no-repeat right;
+    margin-top: 275px;
+    margin-left: 95%;
+    float: right;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+#head_slider{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	height: 720px;
+}
+#head_slider_content{
+	height: 720px;
+	width: 6000px;
+	margin-left: auto;
+}
+
+
+#head_slider_content>*{
+	float: left;
+	height: 720px;
+	width: 1519px;
+}
+figcaption{
+	position: absolute;
+    bottom: 0;
+    text-align: center;
+    
+    left: 0;
+    right: 0;
+    color: #000000;
+    font-family: arial;
+    overflow: hidden;
+    transition: top 0.5s;
+    top: 300px;
+	margin-top: 185px;
+    color: white;
+	font: bold 45px "IBM Plex Sans" ;
+}
+.inscrip{
+	padding: 2px;
+	margin-top: 2%;
+	text-align: center;
+	width: 45%;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 50px;
+	margin-left: 5%;
+}
+.connexion{
+	margin-top: 5%	;
+	padding: 2px;
+	text-align: center;
+	width: 45%;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 50px;
+	margin-left: 5%;
+}
+.champ{
+	background-color: #675a81;
+	width: 200%;
+	height: 30px;
+	border-radius: 0.5em;
+}
+.inscrip form{
+    margin-left: 22%;
+}
+.connexion form{
+    margin-left: 22%;
+}
+.formulaire
+{
+    margin-top: -2.5%;
+    border-collapse : separate;
+    border-spacing : 20px;
+}
+button{
+    border: none;
+	background-color: hsl(267, 100%, 17%);
+	color: #fff;
+	border-radius: 3px;
+	width: 200px;
+	height: 40px;
+	margin-left: 50%;
+	font-size: 1rem;
+	cursor: pointer;
+}
+.role{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-right: 29%;
+}
+input[type="radio"].user {
+	display: none;
+	height: 500px;
+}
+  input[type="radio"].user + label {
+	padding: 0.5rem 1rem;
+	font-size: 1.25rem;
+	border-radius: 0.3rem;
+	color: #fff;
+	background-color: #6c757d;
+	border: 1px solid transparent;
+	transition: all 0.5s ease-in-out;
+}
+  input[type="radio"].user.normal:hover + label {
+	background-color: #50befa;
+	border-color: #50befa;
+}
+  input[type="radio"].user.normal:checked + label {
+	background-color: #181647;
+	border-color: #181647;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+  input[type="radio"].user.power:hover + label {
+	background-color: #50befa;
+	border-color: #50befa;
+}
+  input[type="radio"].user.power:checked + label {
+	background-color: #181647;
+	border-color: #181647;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+#footer{
+	position: absolute;
+	  display:flex;
+	  justify-content: space-between;
+	  height: 250px;
+	  background-color: #181647;
+	width: 100%;
+	font-size: 20px;
+}
+#logo2{
+	padding-top: 65px;
+	padding-left: 25px;
+}
+.colone{
+	padding-right: 75px;
+}
+h3{
+	color: white;
+	font: bold 30px "IBM Plex Sans" ;
+}
+#footer, p{
+	color: white;
+	font: bold 11px "IBM Plex Sans" ;
+	padding-top: 5px;
+}
+
+  #footer, p :hover{
+	color: rgb(85, 207, 255);
+} 
+#réseaux{
+	display: flex;
+	justify-self: start;
+	justify-content: center;
+} 
+#réseaux img{
+	width: 50px;
+	height: 50px;
+} 
+.res{
+	height: 40px;
+	width: 40px;
+	margin-top: 20px;
+	margin-right: 14px;
+}
