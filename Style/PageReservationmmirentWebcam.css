@@ -1,0 +1,199 @@
+html{
+	height: 100%;
+}
+body{
+	
+	margin:0;
+	overflow: auto;
+}
+
+#fond{
+    
+    height: 2000px;
+    width: 100%;
+    background-image: url(../Ressources/fond.png);
+}
+
+#contenu{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    padding-top: 65px;
+    justify-content: space-between;
+}
+
+#petitephoto{
+    
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 25px;
+    padding-right: 25px;
+   
+}
+
+.petites {
+    border-radius: 20%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 25px;
+    border: 3px solid black;
+}
+
+.normal{
+    border-radius: 7%;
+    width: 388px;
+    height: 636px;
+    border: 3px solid black;
+}
+
+.logo{
+    height: 50px;
+    width: auto;
+    border-radius: 0%;
+}
+
+#photo{
+    border-radius: 7%;
+    width: 500px;
+    height: 700px;
+    
+    
+}
+
+#description{
+    border-radius: 5%;
+    width: 800px;
+    height: 700px;
+   
+    background-color: #555c7fbf;
+   
+    margin-right: 25px;
+}
+
+#nom{
+    font: bold 55px "IBM Plex Sans";
+    color: #000c4a;
+    text-align: center;
+    margin-top: 15px
+}
+
+#details{
+    font: bold 20px "IBM Plex Sans";
+    color: #ffffff;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+
+#div{
+	margin-left:125px;
+	margin-right:125px;
+	padding-top:42px;
+}
+
+
+#nav{
+	display:flex;
+	justify-content: space-between;
+	height: 150px;
+	align-items: center;
+    background-color: #181647;
+	box-shadow:0px 3px 3px black;
+	padding-left:25px;
+	padding-right:25px;
+	
+}
+
+.catégorie{
+    color: white;
+	padding-top: 105px;
+    font: bold 20px "IBM Plex Sans" ;
+}
+
+#barre{
+	margin-top: 80px;
+	
+}
+
+#searchbar{
+	height: 27px;
+	width: 202px;
+	margin-top: 28px;
+}
+
+input{
+
+	outline: none;
+}
+
+a
+{ 
+ text-decoration:none; 
+ color:white;
+} 
+
+.button{
+	width: 100px;
+	height: 100px;
+}
+
+#Loupe{
+	height: 20px;
+	width: 21px;
+}
+#Loupe:hover{
+
+}
+.button:hover{
+	color: rgb(85, 207, 255);
+}
+#footer{
+	
+	display:flex;
+	justify-content: space-between;
+	height: 185px;
+	background-color: #181647;
+}
+
+#logo2{
+    padding-top: 65px;
+    padding-left: 25px;
+}
+
+
+.colone{
+    padding-right: 75px;
+}
+
+h1{
+    color: white;
+    font: bold 20px "IBM Plex Sans" ;
+}
+
+#footer, p{
+    color: white;
+    font: bold 11px "IBM Plex Sans" ;
+    padding-top: 5px;
+}
+
+#footer, p :hover{
+    
+    color: rgb(85, 207, 255);
+}
+
+
+
+#réseaux{
+    display: flex;
+    justify-self: start;
+    justify-content: center;
+
+}
+
+.res{
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    margin-right: 14px;
+}
